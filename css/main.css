@@ -1,0 +1,67 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 5px;
+}
+
+.nav-left {
+	display: flex;
+	align-items: center;
+}
+
+.nav-right {
+	display: flex;
+	align-items: center;
+}
+
+.nav-right>*{
+	padding-right: 15px;
+}
+.nav-link{
+	font-size: 13px;
+	opacity: .7;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: #000;
+	padding-left: 15px;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+}
+
+.app-icon{
+	padding-top: 5px;
+}
+
+.app-icon span {
+	opacity: .55;
+}
+
+.app-icon:hover span {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.sign-in {
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	color: white;
+	padding: 0 12px;
+	line-height: 28px;
+	border-radius: 2px;
+	font-weight: bold;
+}
+
+.sign-in a {
+	color: white;
+	text-decoration: none;
+}
+
+.sign-in:hover a{
+	cursor: default;
+}
+
+.sign-in:hover {
+	box-shadow: 0 1px 0 rgba(0,0,0,.3);
+}
