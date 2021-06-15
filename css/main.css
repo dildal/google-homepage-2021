@@ -65,3 +65,53 @@ nav {
 .sign-in:hover {
 	box-shadow: 0 1px 0 rgba(0,0,0,.3);
 }
+
+main {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.searchbar-container {
+	display: flex;
+	width: 470px;
+	border-radius: 20px;
+    border: 1px solid #e9eaed;
+    padding: 0 15px;
+    align-items: center;
+    margin: 22px auto;
+}
+
+.searchbar-container span{
+	font-size: 22px;
+	opacity: .35;
+}
+
+.searchbar {
+    width: 470px;
+    padding-left: 10px;
+    line-height: 40px;
+    border: none;
+}
+
+.search-button {
+	border: none;
+    padding: 12px 15px;
+    color: #5f6368;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin-right: 15px;
+}
+
+.search-button:hover {
+	border: 1px solid #c1c1c1;
+	margin: -1px 14px -1px -1px;
+	background-color: #f6f6f6;
+}
+
+.searchbar-container:hover {	
+    box-shadow: 1px 1px 3px #b5b5b5;
+}
+
+.searchbar:focus {
+	outline: 0;
+}
