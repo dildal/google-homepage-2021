@@ -1,3 +1,11 @@
+
+a {
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: #000;
+	opacity: .7;
+}
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -19,10 +27,6 @@ nav {
 }
 .nav-link{
 	font-size: 13px;
-	opacity: .7;
-	font-family: arial, sans-serif;
-	text-decoration: none;
-	color: #000;
 	padding-left: 15px;
 }
 
@@ -114,4 +118,23 @@ main {
 
 .searchbar:focus {
 	outline: 0;
+}
+
+footer {
+	width: 100vw;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	background: #f2f2f2;
+	bottom: 0;
+}
+
+.footer-link {
+	padding: 5px;
+	font-size: 14px;
+}
+.footer-link:hover {
+	text-decoration: underline;
 }
